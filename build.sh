@@ -1,0 +1,1 @@
+﻿#!/usr/bin/env bash# exit on errorset -o errexit# Install dependenciespip install -r requirements.txt# Run migrationspython manage.py migrate# Collect static filespython manage.py collectstatic --noinput
