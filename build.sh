@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bash
+#!/usr/bin/env bash
 set -o errexit  # exit on first error
 
 # Install dependencies
